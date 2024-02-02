@@ -1,0 +1,198 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: aliceblue;
+   
+}
+.logo{
+    width: 150px;
+    height: 60px;
+}
+
+.main_btn{
+    width: 200px;
+    background-color: rgb(235, 83, 83);
+    color:whitesmoke;
+    font-weight: 500;
+    border: none;
+}
+
+.btn_explore{
+    width: 130px;
+    background-color: rgb(238, 234, 234);
+    color:rgb(228, 25, 25);
+    font-weight: 500;
+    border: none;
+}
+
+.main_btn:hover{
+    background-color: rgb(224, 101, 101);
+    color:whitesmoke
+}
+
+.view_btn{
+    width: 150px;
+    background-color: rgb(236, 236, 236);
+    color:rgb(56, 54, 54);
+    font-weight: 500;
+    border: none;
+}
+
+.view_btn:hover{
+    background-color: rgb(224, 223, 223);
+    color:rgb(56, 54, 54);
+}
+
+.nav-item{
+    padding-right: 70px;
+    
+}
+
+.nav-link{
+color: rgb(24, 23, 23);
+}
+
+#menu_bar{
+    background-color: white;
+}
+
+p{
+    color: rgb(133, 129, 129)
+}
+
+.data_content{
+    position: relative;
+    top:120px
+}
+.course{
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 1200px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+      
+    }
+
+    .course{
+        text-align: center;
+    }
+
+    .data_content{
+        position: relative;
+        top:0;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        order:1;
+        text-align: center;
+        
+    }
+
+    body{
+        font-size: 22px;
+       
+    }
+
+    .my_carousel{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .eco_last{
+        display: none;
+    }
+
+   
+   
+  }
+.card_img{
+   width: 50px;
+   height: 50px;
+}
+
+
+.content_data{
+    max-width: 50px
+}
+
+.box_shadow{
+   box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   border:0;
+   background-color: aliceblue;
+   margin-bottom: 10px;
+   
+}
+
+.nav-link{
+    color: rgb(131, 128, 128);
+
+}
+
+.nav-link:hover{
+    color: rgb(53, 52, 52);
+    
+    font-weight: 500;
+
+}
+
+.nav .active{
+    color:black;
+    border-bottom: 1px solid rgb(36, 35, 35);
+}
+
+.card_shadow{
+     box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2);
+     border-radius: 20px;
+     background-color: aliceblue;
+     
+}
+
+.eco_blue:hover{
+    background-color: rgb(230, 238, 245);
+}
+
+.eco_pink:hover{
+    background-color: rgb(247, 243, 246);
+}
+.card:hover .eco_card{
+    
+    display: inline;
+    transition: all 0.4s;
+}
+.eco_card{
+    display: none;
+}
+
+.card_achieve{
+    
+    display: flex;
+    justify-content: center;
+    width: 220px;
+    height: 70px;
+   
+    border-radius: 10px;
+    padding: 2px;
+    background-color: white;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card_achieve_img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+
+}
+
+.card_success{
+    color: rgb(46, 173, 46);
+    background-color: rgb(238, 236, 236);
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    
+}
